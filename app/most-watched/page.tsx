@@ -181,7 +181,7 @@ export default function MostWatchedPage() {
   };
 
   return (
-    <section className="px-[20px] lg:px-[64px] bg-[#060d17] w-full min-h-screen">
+    <section className="px-[20px] lg:px-[64px] bg-[#060d17] w-full min-h-screen mt-[75px]">
       <div className="py-10 flex flex-row gap-10">
         <Popover>
           <PopoverTrigger asChild>
