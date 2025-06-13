@@ -20,7 +20,7 @@ function MovieCard({
   rating: number;
 }) {
   return (
-    <div className="flex flex-row gap-[20px] pl-0 p-[15px] border-b border-gray-900">
+    <div className="flex flex-row gap-[20px] pl-0 p-[15px] border-b border-gray-900 mt-[75px]">
       <a href={`/movie/${id}`}>
         <img
           src={img ? `https://image.tmdb.org/t/p/w780${img}` : imagePlaceholder}
