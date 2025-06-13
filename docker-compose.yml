@@ -1,0 +1,13 @@
+services:
+  web:
+    container_name: valere-margins-movie-app-web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - .env
+    volumes:
+      - .:/app
+    restart: unless-stopped
